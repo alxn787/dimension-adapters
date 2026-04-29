@@ -26,7 +26,22 @@
     ]
   },
   "include": [
-    "fees/*",
-    "dexs/*",
-    "adapters/*", "aggregators/*", "options/*", "incentives/*", "fees/*", "protocols/*", "fees/gmx-v2/gmx-v2.ts", "fees/tigris/index.ts", "fees/xoxno/xoxno.ts"],
+    "active-users/**/*.ts",
+    "adapters/**/*.ts",
+    "aggregator-derivatives/**/*.ts",
+    "aggregator-options/**/*.ts",
+    "aggregators/**/*.ts",
+    "bridge-aggregators/**/*.ts",
+    "dexs/**/*.ts",
+    "factory/**/*.ts",
+    "fees/**/*.ts",
+    "helpers/**/*.ts",
+    "incentives/**/*.ts",
+    "normalized-volume/**/*.ts",
+    "open-interest/**/*.ts",
+    "options/**/*.ts",
+    "protocols/**/*.ts",
+    "users/**/*.ts",
+    "utils/**/*.ts"
+  ],
 }
